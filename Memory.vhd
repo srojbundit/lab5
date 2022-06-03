@@ -43,13 +43,6 @@ begin
 	 	i_ram(intAddress) <= DataIn;   
 	end if; 
     end if;
---    if OE = '0' then
---	if intAddress > 127 then
---		DataOut <= "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ";
---	else
---		DataOut <= i_ram(intAddress);
---	end if;	
---    end if; 	
 	-- Rest of the RAM implementation
   end process RamProc;
 
