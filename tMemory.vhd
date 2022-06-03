@@ -128,16 +128,6 @@ BEGIN
 		wait for 5 ns;
 		clock <= '0';
 		wait for 5 ns;
-
-
---		address <= X"00000200";    address out of range
---		dataIn  <= X"BAADBEEF";
---		we      <= '1';
---		clock <= '1';
---		wait for 5 ns;
---		clock <= '0';
---		wait for 5 ns;
-----
 		 --Read back content
 		oe      <= '0';
 		we      <= '0';
